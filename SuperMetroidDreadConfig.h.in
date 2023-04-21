@@ -1,0 +1,2 @@
+#define SuperMetroidDread_VERSION_MAJOR @SuperMetroidDread_VERSION_MAJOR@
+#define SuperMetroidDread_VERSION_MINOR @SuperMetroidDread_VERSION_MINOR@
