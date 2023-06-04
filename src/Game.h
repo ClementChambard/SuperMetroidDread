@@ -1,3 +1,4 @@
+// Copyright 2023 Clément Chambard
 #ifndef GAME
 #define GAME
 
@@ -7,16 +8,14 @@
 #include <Engine.hpp>
 
 class Game : public NSEngine::IEngine {
-
 public:
-    Game();
-    ~Game() override {}
+  Game();
+  ~Game() override {}
 
-    void on_create() override;
-    void on_update() override;
-    void on_render() override;
-    void on_destroy() override;
-
+  void on_create() override;
+  void on_update() override;
+  void on_render() override;
+  void on_destroy() override;
 };
 
 #endif

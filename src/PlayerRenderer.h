@@ -1,14 +1,15 @@
+// Copyright 2023 Clément Chambard
 #ifndef PLAYERRENDERER_INCLUDED_H
 #define PLAYERRENDERER_INCLUDED_H
 
 #include "Samus.h"
 
 class PlayerRenderer {
-    public:
-        PlayerRenderer();
-        ~PlayerRenderer();
+public:
+  PlayerRenderer();
+  ~PlayerRenderer();
 
-        void RenderSamus(Samus* s);
+  void RenderSamus(Samus *s);
 };
 
 #endif
